@@ -5,18 +5,19 @@ function App() {
   const [countries, setCountries] = useState([]);
 
   useEffect(() => {
-    const fetchCountries = async () => {
-      try {
-        const response = await fetch("https://xcountries-backend.labs.crio.do/all");
-        const data = await response.json();
-        setCountries(data);
-      } catch (error) {
-        console.error("Failed to fetch countries"); // Required for Cypress test
-      }
-    };
+  const fetchCountries = async () => {
+    try {
+      const response = await fetch("https://xcountries-backend.labs.crio.do/all");
+      const data = await response.json();
+      setCountries(data);
+    } catch (error) {
+      console.error("Failed to fetch countries"); // Required for test
+    }
+  };
 
-    fetchCountries();
-  }, []);
+  fetchCountries();
+}, []);
+
 
   return (
     <div className="container">
