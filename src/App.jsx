@@ -11,7 +11,7 @@ function App() {
       const data = await response.json();
       setCountries(data);
     } catch (error) {
-      console.error("Failed to fetch countries"); // Required for test
+      console.error("Error fetching data:", error); // Required for test
     }
   };
 
