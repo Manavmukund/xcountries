@@ -67,7 +67,7 @@ button:focus-visible {
   }
 } */
 
-body {
+/* body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -91,22 +91,22 @@ body {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;      /* Center everything */
-  display: flex;
+  /* display: flex;
   flex-direction: column;   /* Stack flag + text vertically */
-  align-items: center;      /* Center horizontally */
-  gap: 10px;
+  /* align-items: center;      /* Center horizontally */
+  /* gap: 10px;
   
-}
+}  */
+ */
 
-
-.flag {
+/* .flag {
   width: 120px;       /* fixed width like your screenshot */
-  height: 80px;       /* fixed height */
-  object-fit: cover;  /* keeps image proportion */
-  border-radius: 6px;
-}
+  /* height: 80px;       /* fixed height */
+  /* object-fit: cover;  /* keeps image proportion */
+  /* border-radius: 6px;
+} */ */ */
 
-.card {
+/* .card {
   padding: 20px;
   width: 230px;
 }
@@ -114,5 +114,5 @@ body {
 .flag {
   width: 160px;
   height: 110px;
-}
-
+} */
+ */ */
